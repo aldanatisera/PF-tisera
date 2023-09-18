@@ -1,0 +1,36 @@
+$yellow-color: #d7df23;
+$rose-color:#d4bcb4;
+$gray-ligth-color:#e6e4e4;
+$gray-color: #a69b9b;
+
+body {
+    background-color: #ffffff;
+    font-size: 30px;
+}
+
+.mi-logo {
+    width: 250px;
+    lighting-color: $gray-color;
+    
+    &:hover {
+        width: 292px;
+    }
+}
+
+
+header {
+    border-color: solid 20px $gray-ligth-color;
+}
+
+
+.mi-link {
+    color:  $rose-color;
+
+    &:hover {
+        background-color: $yellow-color;
+        color:  $rose-color;
+        border-radius: 30px;
+        opacity: 10px; 
+        padding: 5px;
+    }
+}

@@ -1,0 +1,29 @@
+body {
+  background-color: #ffffff;
+  font-size: 30px;
+}
+
+.mi-logo {
+  width: 250px;
+  lighting-color: #a69b9b;
+}
+.mi-logo:hover {
+  width: 292px;
+}
+
+header {
+  border-color: solid 20px #e6e4e4;
+}
+
+.mi-link {
+  color: #d4bcb4;
+}
+.mi-link:hover {
+  background-color: #d7df23;
+  color: #d4bcb4;
+  border-radius: 30px;
+  opacity: 10px;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
