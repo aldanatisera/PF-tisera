@@ -1,0 +1,34 @@
+@import "./variables";
+
+header {
+  border-color: solid 20px $gray-ligth-color;
+}
+
+/*Header*/
+
+.mi-logo:hover {
+  width: 292px;
+}
+
+.mi-logo {
+  width: 250px;
+  lighting-color: $gray-color;
+}
+
+.mi-link:hover {
+  background-color: $yellow-color;
+  color: $rose-color;
+  border-radius: 30px;
+  opacity: 10px;
+  padding: 5px;
+}
+
+.mi-link {
+  color: $rose-color;
+}
+
+.fras-container p {
+  border: $yellow-color;
+  margin: 10px;
+  border-radius: 25px;
+}

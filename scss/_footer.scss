@@ -1,0 +1,14 @@
+@import "./variables";
+
+.footer-container {
+  display: grid;
+  background-color: $white-color;
+  color: #d4bcb4;
+  text-align: center;
+  font-size: 25px;
+  border-top: $yellow-color solid 4px;
+  display: grid;
+  margin-top: 50px;
+  text-transform: capitalize;
+  width: 100%;
+}

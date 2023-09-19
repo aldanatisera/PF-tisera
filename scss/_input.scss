@@ -1,0 +1,96 @@
+@import "./variables";
+
+placeholder {
+  color: $yellow-color;
+}
+
+input,
+textarea [type="text"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid $yellow-color;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 15px;
+  text-align: center;
+}
+
+/*FORM contactos*/
+.form-floating {
+  text-align: center;
+}
+
+.label-form {
+  display: block;
+  font-weight: 100%;
+  margin-bottom: 5px;
+  border: $rose-color;
+  text-transform: uppercase;
+}
+
+.btn-form {
+  background-color: $rose-color;
+  color: $white-color;
+  border: none;
+  padding: 10px 20px;
+  font-size: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.contacto-tittle {
+  text-align: center;
+  text-transform: uppercase;
+  color: $white-color;
+  margin-top: 60px;
+  background-color: $yellow-color;
+  font-weight: bold;
+}
+
+.contacto-subtittle {
+  text-align: center;
+  color: $rose-color;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.fieldset-container {
+  display: grid;
+  border-radius: 20px;
+  padding: 20px;
+  color: $rose-color;
+  background-color: $wild-sand-color;
+  width: 100%;
+}
+
+.form-container {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.legend-container {
+  font-size: 40px;
+  background-color: $white-color;
+  font-weight: bold;
+}
+
+.legend-container:hover {
+  color: $yellow-color;
+  border-radius: 5px;
+}
+
+.input-container {
+  border-radius: 15px;
+  padding: 15px;
+  color: $rose-color;
+  font-size: 25px;
+}
+
+.input-container {
+  border-radius: 15px;
+  color: $yellow-color;
+}
