@@ -27,6 +27,7 @@ textarea [type="text"] {
   margin-bottom: 5px;
   border: $rose-color;
   text-transform: uppercase;
+  text-align: start;
 }
 
 .btn-form {
@@ -76,11 +77,11 @@ textarea [type="text"] {
   font-size: 40px;
   background-color: $white-color;
   font-weight: bold;
-}
 
-.legend-container:hover {
-  color: $yellow-color;
-  border-radius: 5px;
+  &:hover {
+    color: $yellow-color;
+    border-radius: 5px;
+  }
 }
 
 .input-container {
