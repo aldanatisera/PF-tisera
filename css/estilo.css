@@ -71,9 +71,9 @@
   font-weight: bold;
 }
 
-.subtitulo-container {
+.tittle-linkstwo {
   text-align: center;
-  color: #d4bcb4;
+  color: gray;
   margin-top: 20px;
   margin-bottom: 30px;
   font-weight: bold;
@@ -91,15 +91,15 @@
   border-radius: 25px;
   max-width: 100%;
 }
+.photos-image-text {
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #d7df23;
+  border-radius: 30px;
+  margin-top: 25px;
+}
 .photos:hover {
   border: 1px solid #d7df23;
-}
-.photos p {
-  background-color: #cebcb4;
-  color: #d7df23;
-  border-radius: 20px;
-  margin-top: 20px;
-  padding: 10px;
 }
 
 .footer-container {
@@ -120,10 +120,6 @@ header {
 }
 
 /*Header*/
-.mi-logo:hover {
-  width: 292px;
-}
-
 .mi-logo {
   width: 250px;
   lighting-color: #a69b9b;
@@ -172,13 +168,14 @@ textarea [type=text] {
   display: block;
   font-weight: 100%;
   margin-bottom: 5px;
-  border: #d4bcb4;
+  border: gray;
   text-transform: uppercase;
   text-align: start;
+  color: gray;
 }
 
 .btn-form {
-  background-color: #d4bcb4;
+  background-color: #d7df23;
   color: #ffffff;
   border: none;
   padding: 10px 20px;
@@ -224,6 +221,7 @@ textarea [type=text] {
   font-size: 40px;
   background-color: #ffffff;
   font-weight: bold;
+  color: gray;
 }
 .legend-container:hover {
   color: #d7df23;
@@ -269,7 +267,7 @@ textarea [type=text] {
 
 .tittle-linkstwo {
   text-align: center;
-  color: #d4bcb4;
+  color: gray;
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 20px;
@@ -332,9 +330,6 @@ body {
   width: 250px;
   lighting-color: #a69b9b;
 }
-.mi-logo:hover {
-  width: 292px;
-}
 
 header {
   border-color: solid 20px #e6e4e4;
@@ -358,7 +353,7 @@ header {
 .accordion-button {
   color: #ffffff;
   background-color: #d7df23;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

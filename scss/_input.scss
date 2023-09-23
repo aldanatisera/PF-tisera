@@ -25,13 +25,14 @@ textarea [type="text"] {
   display: block;
   font-weight: 100%;
   margin-bottom: 5px;
-  border: $rose-color;
+  border: $focus-gray;
   text-transform: uppercase;
   text-align: start;
+  color: $focus-gray;
 }
 
 .btn-form {
-  background-color: $rose-color;
+  background-color: $yellow-color;
   color: $white-color;
   border: none;
   padding: 10px 20px;
@@ -77,6 +78,7 @@ textarea [type="text"] {
   font-size: 40px;
   background-color: $white-color;
   font-weight: bold;
+  color: $focus-gray;
 
   &:hover {
     color: $yellow-color;

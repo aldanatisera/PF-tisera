@@ -76,15 +76,15 @@
 .container-titulo {
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: $white-color;
   margin-top: 60px;
-  background-color: #d7df23;
+  background-color: $yellow-color;
   font-weight: bold;
 }
 
-.subtitulo-container {
+.tittle-linkstwo {
   text-align: center;
-  color: #d4bcb4;
+  color: $focus-gray;
   margin-top: 20px;
   margin-bottom: 30px;
   font-weight: bold;
@@ -102,15 +102,15 @@
   border-radius: 25px;
   max-width: 100%;
 
-  &:hover {
-    border: 1px solid $yellow-color;
+  &-image-text {
+    font-weight: 700;
+    color: $white-color;
+    background-color: $yellow-color;
+    border-radius: 30px;
+    margin-top: 25px;
   }
 
-  & p {
-    background-color: #cebcb4;
-    color: $yellow-color;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 10px;
+  &:hover {
+    border: 1px solid $yellow-color;
   }
 }
