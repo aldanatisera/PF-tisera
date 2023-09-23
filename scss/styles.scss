@@ -3,6 +3,8 @@
 @import "./footer";
 @import "./header";
 @import "./input";
+@import "./carrusel";
+@import "./animation";
 
 body {
   background-color: #ffffff;
@@ -32,4 +34,14 @@ header {
     opacity: 10px;
     padding: 5px;
   }
+}
+
+.main-container {
+  margin: 20px 30px;
+}
+
+.accordion-button {
+  color: $white-color;
+  background-color: $yellow-color;
+  font-size: 35px;
 }
