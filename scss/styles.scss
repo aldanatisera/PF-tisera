@@ -26,9 +26,9 @@ header {
   &:hover {
     background-color: $yellow-color;
     color: $rose-color;
-    border-radius: 30px;
+    border-radius: 10px;
     opacity: 10px;
-    padding: 5px;
+    padding: 2px;
   }
 }
 
@@ -40,4 +40,10 @@ header {
   color: $white-color;
   background-color: $yellow-color;
   font-size: 30px;
+}
+
+.subtittle-container {
+  background-color: $tidal-color;
+  margin: 20px;
+  color: $white-color;
 }

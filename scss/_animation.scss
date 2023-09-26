@@ -24,9 +24,8 @@
 .card-body {
   background-color: $yellow-color;
   animation-name: card-body;
-  animation-iteration-count: infinite;
-  animation-duration: 10s;
-  animation-timing-function: ease-in;
+  animation-iteration-count: unset;
+  animation-duration: 5s;
 }
 
 @keyframes accordion-button {
@@ -41,6 +40,6 @@
 
 .accordion-button {
   animation-name: accordion-button;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-iteration-count: initial;
 }
