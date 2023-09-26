@@ -1,6 +1,6 @@
 @import "./variables";
 
-@keyframes card-body {
+/*@keyframes card-body {
   0% {
     width: 220px;
   }
@@ -23,10 +23,7 @@
 
 .card-body {
   background-color: $yellow-color;
-  animation-name: card-body;
-  animation-iteration-count: unset;
-  animation-duration: 5s;
-}
+}*/
 
 @keyframes accordion-button {
   75% {
