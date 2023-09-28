@@ -37,13 +37,23 @@ header {
 .main-container {
   margin: 20px 30px;
 }
+.accordion {
+  font-size: 35px;
 
-.accordion-button {
-  color: $white-color;
-  background-color: $yellow-color;
-  font-size: 30px;
+  &-collapse {
+    color: $yellow-color;
+  }
+
+  &-button {
+    color: $white-color;
+    background-color: $yellow-color;
+    font-size: 30px;
+  }
+
+  &-body {
+    color: $tidal-color;
+  }
 }
-
 .subtittle-container {
   background-color: $tidal-color;
   margin: 20px;
@@ -58,4 +68,15 @@ header {
 
 .tittle-phrase {
   padding: 15px;
+}
+
+.clearfix {
+  margin: 30px;
+}
+
+.clearfix-photos {
+  border-radius: 20px;
+  padding: 15px;
+  background-color: $yellow-color;
+  align-items: center;
 }

@@ -1,14 +1,13 @@
 @import "./variables";
 
 .footer-container {
-  display: grid;
-  background-image: radial-gradient($tidal-color, $white-color);
-  color: #d4bcb4;
+  background-color: $tidal-color;
+  color: $gray-color;
   text-align: center;
   font-size: 25px;
   border-top: $yellow-color solid 4px;
-  display: grid;
-  margin-top: 50px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   width: 100%;
+  padding: 40px;
+  margin-top: 40px;
 }

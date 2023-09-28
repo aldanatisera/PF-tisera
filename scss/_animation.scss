@@ -1,35 +1,12 @@
 @import "./variables";
 
-/*@keyframes card-body {
-  0% {
-    width: 220px;
-  }
-
-  25% {
-    width: 240px;
-  }
-
-  50% {
-    width: 260px;
-  }
-  75% {
-    width: 290px;
-  }
-
-  100% {
-    width: 300px;
-  }
-}
-
-.card-body {
-  background-color: $yellow-color;
-}*/
-
 @keyframes accordion-button {
   75% {
-    opacity: 60%;
+    opacity: 0%;
   }
-
+  50% {
+    opacity: 50%;
+  }
   100% {
     opacity: 100%;
   }
@@ -37,6 +14,42 @@
 
 .accordion-button {
   animation-name: accordion-button;
+  animation-duration: 2s;
+  animation-iteration-count: initial;
+}
+
+@keyframes carousel {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.carousel {
+  animation-name: carousel;
+  animation-duration: 2s;
+  animation-iteration-count: initial;
+}
+
+@keyframes tittle-links {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.tittle-links {
+  animation-name: tittle-links;
   animation-duration: 2s;
   animation-iteration-count: initial;
 }

@@ -104,16 +104,15 @@
 }
 
 .footer-container {
-  display: grid;
-  background-image: radial-gradient(#e4e778, #ffffff);
-  color: #d4bcb4;
+  background-color: #e4e778;
+  color: #a69b9b;
   text-align: center;
   font-size: 25px;
   border-top: #d7df23 solid 4px;
-  display: grid;
-  margin-top: 50px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   width: 100%;
+  padding: 40px;
+  margin-top: 40px;
 }
 
 header {
@@ -283,33 +282,12 @@ textarea [type=text] {
   margin-top: 30px;
 }
 
-/*@keyframes card-body {
-  0% {
-    width: 220px;
-  }
-
-  25% {
-    width: 240px;
-  }
-
-  50% {
-    width: 260px;
-  }
-  75% {
-    width: 290px;
-  }
-
-  100% {
-    width: 300px;
-  }
-}
-
-.card-body {
-  background-color: $yellow-color;
-}*/
 @keyframes accordion-button {
   75% {
-    opacity: 60%;
+    opacity: 0%;
+  }
+  50% {
+    opacity: 50%;
   }
   100% {
     opacity: 100%;
@@ -317,6 +295,40 @@ textarea [type=text] {
 }
 .accordion-button {
   animation-name: accordion-button;
+  animation-duration: 2s;
+  animation-iteration-count: initial;
+}
+
+@keyframes carousel {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.carousel {
+  animation-name: carousel;
+  animation-duration: 2s;
+  animation-iteration-count: initial;
+}
+
+@keyframes tittle-links {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.tittle-links {
+  animation-name: tittle-links;
   animation-duration: 2s;
   animation-iteration-count: initial;
 }
@@ -351,10 +363,19 @@ header {
   margin: 20px 30px;
 }
 
+.accordion {
+  font-size: 35px;
+}
+.accordion-collapse {
+  color: #d7df23;
+}
 .accordion-button {
   color: #ffffff;
   background-color: #d7df23;
   font-size: 30px;
+}
+.accordion-body {
+  color: #e4e778;
 }
 
 .subtittle-container {
@@ -371,6 +392,17 @@ header {
 
 .tittle-phrase {
   padding: 15px;
+}
+
+.clearfix {
+  margin: 30px;
+}
+
+.clearfix-photos {
+  border-radius: 20px;
+  padding: 15px;
+  background-color: #d7df23;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
