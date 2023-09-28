@@ -2,7 +2,7 @@
 
 .footer-container {
   display: grid;
-  background-color: $white-color;
+  background-image: radial-gradient($tidal-color, $white-color);
   color: #d4bcb4;
   text-align: center;
   font-size: 25px;

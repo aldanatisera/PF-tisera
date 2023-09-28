@@ -1,3 +1,4 @@
+@import "../css/bootstrap.min.css";
 @import "./variables";
 @import "./cards";
 @import "./footer";
@@ -6,9 +7,9 @@
 @import "./carrusel";
 @import "./animation";
 
-body {
-  background-color: #ffffff;
-  font-size: 30px;
+html body {
+  background-image: radial-gradient($tidal-color, $white-color);
+  font-size: 25px;
 }
 
 .mi-logo {
@@ -22,13 +23,14 @@ header {
 
 .mi-link {
   color: $rose-color;
+  font-size: 28px;
 
   &:hover {
     background-color: $yellow-color;
     color: $rose-color;
-    border-radius: 10px;
+    border-radius: 30px;
     opacity: 10px;
-    padding: 2px;
+    padding: 5px;
   }
 }
 

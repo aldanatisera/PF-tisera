@@ -1,3 +1,4 @@
+@import "../css/bootstrap.min.css";
 .card {
   margin-top: 50px;
   max-width: 100%;
@@ -5,8 +6,8 @@
   background-color: #d7df23;
   border: 2px solid #cebcb4;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.656);
-  overflow: hidden;
   border-radius: 25px;
+  transition: 1s;
 }
 .card-title {
   font-size: 30px;
@@ -14,7 +15,7 @@
   color: gray;
 }
 .card-body {
-  background-color: #ffffff;
+  background-color: #d7df23;
 }
 .card-total {
   margin-top: 30px;
@@ -24,21 +25,12 @@
 }
 .card-total:hover {
   color: #d4bcb4;
-  border-radius: 5px;
-  margin-top: 1px;
-  margin-left: 1px;
-  margin-right: 1px;
-  margin-bottom: 1px;
-}
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  justify-items: center;
+  padding: 25px;
+  border-radius: 20px;
 }
 .card-image {
-  max-width: 100%;
-  height: max-content;
+  max-width: 50%;
+  height: min-content;
   padding: 15px;
   border-radius: 20px;
   justify-items: center;
@@ -46,6 +38,7 @@
   background-color: #ffffff;
 }
 .card-content {
+  max-width: 50%;
   padding: 16px;
   text-align: center;
   color: gray;
@@ -94,8 +87,9 @@
 .photos {
   padding: 10px;
   background-color: #d7df23;
-  border-radius: 25px;
   max-width: 100%;
+  border-radius: 25px;
+  transition: 1s;
 }
 .photos-image-text {
   font-weight: 700;
@@ -105,12 +99,13 @@
   margin-top: 25px;
 }
 .photos:hover {
-  border: 1px solid #d7df23;
+  padding: 30px;
+  border-radius: 25px;
 }
 
 .footer-container {
   display: grid;
-  background-color: #ffffff;
+  background-image: radial-gradient(#e4e778, #ffffff);
   color: #d4bcb4;
   text-align: center;
   font-size: 25px;
@@ -326,9 +321,9 @@ textarea [type=text] {
   animation-iteration-count: initial;
 }
 
-body {
-  background-color: #ffffff;
-  font-size: 30px;
+html body {
+  background-image: radial-gradient(#e4e778, #ffffff);
+  font-size: 25px;
 }
 
 .mi-logo {
@@ -342,13 +337,14 @@ header {
 
 .mi-link {
   color: #d4bcb4;
+  font-size: 28px;
 }
 .mi-link:hover {
   background-color: #d7df23;
   color: #d4bcb4;
-  border-radius: 10px;
+  border-radius: 30px;
   opacity: 10px;
-  padding: 2px;
+  padding: 5px;
 }
 
 .main-container {
