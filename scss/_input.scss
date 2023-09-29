@@ -1,24 +1,21 @@
 @import "./variables";
+@import "./mixins";
 
 placeholder {
   color: $yellow-color;
 }
 
-input,
-textarea [type="text"] {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border: 2px solid $yellow-color;
-  border-radius: 5px;
-  margin: 0 auto;
-  font-size: 15px;
-  text-align: start;
+input {
+  @include input-style;
+}
+
+textarea {
+  @include input-style;
 }
 
 /*FORM contactos*/
 .form-floating {
-  text-align: start;
+  @include text-align-start;
 }
 
 .label-form {
@@ -27,20 +24,12 @@ textarea [type="text"] {
   margin-bottom: 5px;
   border: $focus-gray;
   text-transform: uppercase;
-  text-align: start;
+  @include text-align-start;
   color: $focus-gray;
 }
 
 .btn-form {
-  background-color: $yellow-color;
-  color: $white-color;
-  border: none;
-  padding: 10px 20px;
-  font-size: 25px;
-  margin-top: 20px;
-  cursor: pointer;
-  text-align: start;
-  border-radius: 15px;
+  @include button-style;
 }
 
 .contacto-tittle {
@@ -61,11 +50,10 @@ textarea [type="text"] {
 
 .fieldset-container {
   display: grid;
-  border-radius: 20px;
-  padding: 20px;
   color: $rose-color;
   background-color: $wild-sand-color;
   width: 100%;
+  @include rounded-container;
 }
 
 .form-container {
@@ -87,8 +75,7 @@ textarea [type="text"] {
 }
 
 .input-container {
-  border-radius: 15px;
-  padding: 15px;
+  @include rounded-container;
   color: $rose-color;
   font-size: 25px;
 }
@@ -96,4 +83,8 @@ textarea [type="text"] {
 .input-container {
   border-radius: 15px;
   color: $yellow-color;
+}
+
+.icon {
+  @include icon-style;
 }

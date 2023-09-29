@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./mixins";
 
 @keyframes accordion-button {
   75% {
@@ -16,6 +17,10 @@
   animation-name: accordion-button;
   animation-duration: 2s;
   animation-iteration-count: initial;
+
+  &:not(.collapsed) {
+    background-color: $tidal-color;
+  }
 }
 
 @keyframes carousel {
